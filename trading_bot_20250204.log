@@ -1,0 +1,83 @@
+2025-02-04 22:10:54,047 - INFO [trading_bot.py:1923] - Starting trading bot initialization...
+2025-02-04 22:10:54,051 - INFO [trading_bot.py:1926] - Python version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-02-04 22:10:54,302 - INFO [trading_bot.py:1929] - External IP: 94.227.120.45
+2025-02-04 22:10:54,308 - INFO [trading_bot.py:1933] - Loading configuration from config/config.yaml
+2025-02-04 22:10:54,323 - INFO [trading_bot.py:1480] - Initializing Trading Bot...
+2025-02-04 22:10:58,201 - INFO [trading_bot.py:444] - Market Data Manager initialized successfully
+2025-02-04 22:10:58,504 - INFO [trading_bot.py:1001] - Initial balance: 96.43 USDC
+2025-02-04 22:10:58,507 - INFO [trading_bot.py:955] - Trade Manager initialized successfully
+2025-02-04 22:10:58,511 - INFO [trading_bot.py:1489] - Trading Bot initialized successfully
+2025-02-04 22:10:58,513 - INFO [trading_bot.py:1947] - Starting bot execution...
+2025-02-04 22:10:58,515 - INFO [trading_bot.py:1822] - Bot started - Trading pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:11:02,078 - ERROR [trading_bot.py:790] - Error analyzing volume for ADA/USDC: 'min_volume'
+2025-02-04 22:11:02,338 - ERROR [trading_bot.py:790] - Error analyzing volume for XRP/USDC: 'min_volume'
+2025-02-04 22:11:02,350 - INFO [trading_bot.py:1808] - 
+=== Status Update ===
+2025-02-04 22:11:02,353 - INFO [trading_bot.py:1809] - Active Trades: 0
+2025-02-04 22:11:02,359 - INFO [trading_bot.py:1810] - Daily P&L: 0.00 USDC
+2025-02-04 22:11:02,362 - INFO [trading_bot.py:1811] - Win Rate: 0.0%
+2025-02-04 22:11:02,364 - INFO [trading_bot.py:1812] - Current Drawdown: 0.0%
+2025-02-04 22:11:02,367 - INFO [trading_bot.py:1813] - ===================
+
+2025-02-04 22:11:07,094 - ERROR [trading_bot.py:790] - Error analyzing volume for ADA/USDC: 'min_volume'
+2025-02-04 22:11:07,829 - ERROR [trading_bot.py:790] - Error analyzing volume for XRP/USDC: 'min_volume'
+2025-02-04 22:11:12,100 - ERROR [trading_bot.py:790] - Error analyzing volume for ADA/USDC: 'min_volume'
+2025-02-04 22:11:12,459 - ERROR [trading_bot.py:790] - Error analyzing volume for XRP/USDC: 'min_volume'
+2025-02-04 22:15:24,872 - INFO [trading_bot.py:1956] - Starting trading bot initialization...
+2025-02-04 22:15:24,884 - INFO [trading_bot.py:1959] - Python version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-02-04 22:15:25,182 - INFO [trading_bot.py:1962] - External IP: 94.227.120.45
+2025-02-04 22:15:25,254 - INFO [trading_bot.py:1966] - Loading configuration from config/config.yaml
+2025-02-04 22:15:25,299 - INFO [trading_bot.py:1513] - Initializing Trading Bot...
+2025-02-04 22:15:31,956 - INFO [trading_bot.py:444] - Market Data Manager initialized successfully
+2025-02-04 22:15:32,357 - INFO [trading_bot.py:1034] - Initial balance: 96.43 USDC
+2025-02-04 22:15:32,370 - INFO [trading_bot.py:988] - Trade Manager initialized successfully
+2025-02-04 22:15:32,383 - INFO [trading_bot.py:1522] - Trading Bot initialized successfully
+2025-02-04 22:15:32,397 - INFO [trading_bot.py:1980] - Starting bot execution...
+2025-02-04 22:15:32,415 - INFO [trading_bot.py:1855] - Bot started - Trading pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:15:35,113 - ERROR [trading_bot.py:628] - Error updating signals for ADA/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:15:35,381 - ERROR [trading_bot.py:628] - Error updating signals for XRP/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:15:35,437 - WARNING [trading_bot.py:536] - Failed to update data for pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:15:35,450 - WARNING [trading_bot.py:540] - Market data update partially failed. Success: 0/2
+2025-02-04 22:15:35,468 - ERROR [trading_bot.py:1899] - Error in main loop: Failed to update market data
+2025-02-04 22:15:41,741 - ERROR [trading_bot.py:628] - Error updating signals for ADA/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:15:41,995 - ERROR [trading_bot.py:628] - Error updating signals for XRP/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:15:42,038 - WARNING [trading_bot.py:536] - Failed to update data for pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:15:42,049 - WARNING [trading_bot.py:540] - Market data update partially failed. Success: 0/2
+2025-02-04 22:15:42,054 - ERROR [trading_bot.py:1899] - Error in main loop: Failed to update market data
+2025-02-04 22:20:12,835 - INFO [trading_bot.py:1956] - Starting trading bot initialization...
+2025-02-04 22:20:12,851 - INFO [trading_bot.py:1959] - Python version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-02-04 22:20:13,138 - INFO [trading_bot.py:1962] - External IP: 94.227.120.45
+2025-02-04 22:20:13,145 - INFO [trading_bot.py:1966] - Loading configuration from config/config.yaml
+2025-02-04 22:20:13,174 - INFO [trading_bot.py:1513] - Initializing Trading Bot...
+2025-02-04 22:20:18,013 - INFO [trading_bot.py:444] - Market Data Manager initialized successfully
+2025-02-04 22:20:18,289 - INFO [trading_bot.py:1034] - Initial balance: 96.43 USDC
+2025-02-04 22:20:18,302 - INFO [trading_bot.py:988] - Trade Manager initialized successfully
+2025-02-04 22:20:18,317 - INFO [trading_bot.py:1522] - Trading Bot initialized successfully
+2025-02-04 22:20:18,336 - INFO [trading_bot.py:1980] - Starting bot execution...
+2025-02-04 22:20:18,354 - INFO [trading_bot.py:1855] - Bot started - Trading pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:20:19,676 - ERROR [trading_bot.py:628] - Error updating signals for ADA/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:20:19,991 - ERROR [trading_bot.py:628] - Error updating signals for XRP/USDC: 'MarketDataManager' object has no attribute 'analyze_dex_array'
+2025-02-04 22:20:20,005 - WARNING [trading_bot.py:536] - Failed to update data for pairs: ['ADA/USDC', 'XRP/USDC']
+2025-02-04 22:20:20,028 - WARNING [trading_bot.py:540] - Market data update partially failed. Success: 0/2
+2025-02-04 22:20:20,050 - ERROR [trading_bot.py:1899] - Error in main loop: Failed to update market data
+2025-02-04 22:22:38,525 - INFO [trading_bot.py:1871] - Starting trading bot initialization...
+2025-02-04 22:22:38,532 - INFO [trading_bot.py:1874] - Python version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-02-04 22:22:38,791 - INFO [trading_bot.py:1877] - External IP: 94.227.120.45
+2025-02-04 22:22:38,809 - INFO [trading_bot.py:1881] - Loading configuration from config/config.yaml
+2025-02-04 22:22:38,864 - INFO [trading_bot.py:1481] - Initializing Trading Bot...
+2025-02-04 22:22:43,641 - INFO [trading_bot.py:445] - Market Data Manager initialized successfully
+2025-02-04 22:22:43,971 - INFO [trading_bot.py:1002] - Initial balance: 96.43 USDC
+2025-02-04 22:22:43,980 - INFO [trading_bot.py:956] - Trade Manager initialized successfully
+2025-02-04 22:22:43,992 - CRITICAL [trading_bot.py:1493] - Failed to initialize bot: 'TradingBot' object has no attribute '_init_daily_summary'
+2025-02-04 22:22:44,012 - CRITICAL [trading_bot.py:1905] - Fatal error: 'TradingBot' object has no attribute '_init_daily_summary'
+Traceback (most recent call last):
+  File "C:/Users/Gebruiker/Desktop/trading_bot/trading_bot.py", line 1887, in <module>
+    bot = TradingBot(
+        exchange_id=EXCHANGE_CONFIG['exchange_id'],
+    ...<2 lines>...
+        test_mode=EXCHANGE_CONFIG.get('test_mode', False)
+    )
+  File "C:/Users/Gebruiker/Desktop/trading_bot/trading_bot.py", line 1487, in __init__
+    self._init_daily_summary()
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TradingBot' object has no attribute '_init_daily_summary'
