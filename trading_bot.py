@@ -863,6 +863,8 @@ class MarketDataManager:
             self.logger.error(f"Error analyzing DEX array for {symbol}: {str(e)}")
             return False, 0.0
     
+    
+    
     def detect_counter_spoofing(self, symbol: str) -> Tuple[bool, float]:
         """
         Detect counter spoofing with improved accuracy
@@ -1680,6 +1682,7 @@ def _generate_daily_report(self):
         self.logger.error(f"Error generating daily report: {str(e)}")
         return {}
     
+
     def _init_daily_summary(self):
         """Initialize daily performance tracking"""
         self.daily_summary = {
@@ -1700,6 +1703,7 @@ def _generate_daily_report(self):
             'recovery_needed': False
         }
     
+
     def _setup_signal_handlers(self):
         """Setup signal handlers for graceful shutdown"""
         signal.signal(signal.SIGINT, self._handle_shutdown)
